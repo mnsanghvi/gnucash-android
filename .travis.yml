@@ -1,0 +1,11 @@
+language: android
+
+android:
+  components:
+     - androind-10
+
+  licenses: 
+     - 'android-sdk-license-.+'
+
+
+
