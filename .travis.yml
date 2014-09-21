@@ -2,10 +2,14 @@ language: android
 
 android:
   components:
-     - androind-10
+    ## Android 2.3.3 
+    - androind-10
+
+    ## Extras
+    - extra-google-m2repository
+    - extra-android-m2repository
 
   licenses: 
      - 'android-sdk-license-.+'
 
-
-
+  
