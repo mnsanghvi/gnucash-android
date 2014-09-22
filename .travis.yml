@@ -2,8 +2,7 @@ language: android
 
 android:
   components:
-    ## Android 2.3.3 
-    - androind-10
+    - android-16
 
     ## Extras
     - extra-google-m2repository
