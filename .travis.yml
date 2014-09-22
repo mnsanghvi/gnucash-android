@@ -9,6 +9,10 @@ android:
     - extra-google-m2repository
     - extra-android-m2repository
 
-script:
-    - echo $ANDROID_HOME
+env:
+    - ANDROID_HOME=/usr/local/android-sdk-linux
 
+script:
+    - cd app && mvn clean package
+
+      
