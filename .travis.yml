@@ -9,7 +9,5 @@ android:
     - extra-google-m2repository
     - extra-android-m2repository
 
-  licenses: 
-     - 'android-sdk-license-.+'
-
-  
+script:
+    - cd app && mvn clean package
