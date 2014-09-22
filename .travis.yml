@@ -10,4 +10,5 @@ android:
     - extra-android-m2repository
 
 script:
-    - cd app && mvn clean package
+    - echo $ANDROID_HOME
+
